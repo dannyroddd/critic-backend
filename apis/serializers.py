@@ -5,6 +5,7 @@ from critics import models
 
 class CriticSerializer(serializers.ModelSerializer):
     class Meta:
+        
         fields = (
             'id',
             'title',
@@ -23,3 +24,5 @@ class CriticSerializer(serializers.ModelSerializer):
 #     class Meta: 
 #         model = Group
 #         fields = ['url', 'name']
+
+model = models.Critic 
