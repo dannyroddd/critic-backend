@@ -13,6 +13,8 @@ class CriticSerializer(serializers.ModelSerializer):
             'food',
             'overall',
         )
+        model = models.Critic
+        
 
 
 # class UserSerializer(serializers.ModelSerializer):
@@ -25,4 +27,3 @@ class CriticSerializer(serializers.ModelSerializer):
 #         model = Group
 #         fields = ['url', 'name']
 
-model = models.Critic 
